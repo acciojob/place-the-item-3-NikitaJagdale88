@@ -1,11 +1,12 @@
 
 /* Your CSS Code here. */
 .holder{
-	  display: flex;
+	display: flex;
+	justify-content:space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
     margin:0.3rem;
-    flex-wrap:no-wrap
+    flex-wrap:no-wrap;
 }
 main div{
 	width:100px;
